@@ -102,7 +102,7 @@ export default {
   width: 399px;
   height: auto;
   object-fit: cover;
-   border: 6px solid black;
+   border: 6px solid lightgray;
    border-radius:2px;
   
 }

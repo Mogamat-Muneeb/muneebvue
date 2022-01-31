@@ -78,7 +78,7 @@ export default {
   padding: 70px;
 }
 .icon {
-  font-size: 150px;
+  font-size: 100px;
   margin: 0 auto;
   display:flex;
   justify-content:space-between;
