@@ -57,6 +57,14 @@ export default {
         {"title":"Davids Driving School-Brochure Site","id":4,"img":"https://i.postimg.cc/J01kF1ZZ/Screenshot-10.png","links":{
             "github":"https://github.com/Mogamat-Muneeb/davids_drivingschool",
             "netlify":"https://davids-drivng-school.netlify.app"
+        }},
+         {"title":"P.O.S-Project","id":5,"img":"https://i.postimg.cc/mk9zSyr9/Screenshot-16.png","links":{
+            "github":"https://github.com/Mogamat-Muneeb/POS_Project",
+            "netlify":"https://neebspos.netlify.app/"
+        }},
+         {"title":"Temp-Convertor","id":6,"img":"https://i.postimg.cc/V5yMyHh4/Screenshot-17.png","links":{
+            "github":"https://github.com/Mogamat-Muneeb/TEMPERATURE-CONVERTOR",
+            "netlify":"https://calcutemp.netlify.app/"
         }}
         ]
             }

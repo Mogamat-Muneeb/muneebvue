@@ -51,10 +51,11 @@ export default {
 .photo{
      display: flex;
      justify-content: center;
-     height: 450px;
+     height: 460px;
     width: 380px;
     object-fit:cover;
     padding-right: 10px;
+    /* padding-top:300px; */
      /* border: 3px solid white; */
      
 }
@@ -67,6 +68,7 @@ export default {
     display: grid;
     justify-content: center;
     padding-left: 30px;
+    padding-bottom: 40px;
 }
 .row{
     text-align:left ;
@@ -84,9 +86,9 @@ export default {
     /* justify-content:left; */
     /* border: 3px solid; */
     height: 350px;
-    width: 350px;
+    width: 360px;
     /* border-radius:50%; */
-    margin-top: 190px;
+    margin-top: 130px;
 }
 /* .about-profile .pro-detail{
     text-align:center !important;
