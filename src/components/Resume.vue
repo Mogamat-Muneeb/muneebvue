@@ -63,13 +63,14 @@ export default {
 .container{
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .date{
   font-size:13px;
 }
 :root {
-  --primary-color: #fff; /* try #212121 also for dark mode */
+  --primary-color:#f8f9fa; /* try #212121 also for dark mode */
   --background-color: #212121;
   --font: sans-serif;
 }

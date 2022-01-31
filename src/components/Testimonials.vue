@@ -70,21 +70,24 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   padding-top:25px;
+  overflow-y: hidden;
+  padding-bottom:25px;
 }
 .testimonial{
   height: 600px;
-  width: 400px;
+  width: 380px;
   border: 1px solid lightgray;
   border-radius:9px;
   margin: 25px;
+  background-color:white;
   /* padding:250px; */
-  
+  overflow-x: hidden;
   /* box-shadow:  1px 1px 1px 1px black; */
 }
 
 .test_img{
   display: flex;
-  width: 399px;
+  width: 395px;
   height: 330px;
   object-fit:cover;
     border-radius:9px 9px 0 0;

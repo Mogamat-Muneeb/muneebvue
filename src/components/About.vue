@@ -55,7 +55,8 @@ export default {
     width: 380px;
     object-fit:cover;
     padding-right: 10px;
-     /* border: 3px solid; */
+     /* border: 3px solid white; */
+     
 }
 .hi{
     display: flex;
@@ -87,10 +88,10 @@ export default {
     /* border-radius:50%; */
     margin-top: 190px;
 }
-.about-profile .pro-detail{
-    text-align:auto !important;
+/* .about-profile .pro-detail{
+    text-align:center !important;
     
-}
+} */
 .about-profile li{
     display: flex;
     /* justify-content:space-between; */
@@ -168,7 +169,7 @@ ul li, ol li {
    }
     .pro-title{
  
-     margin-left: -150px;
+     margin-left: -155px;
     text-align:left !important;
 }
 .about-profile{

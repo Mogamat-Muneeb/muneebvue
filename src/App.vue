@@ -30,7 +30,7 @@ export default {
 }
 body{
   overflow-x: hidden;
-  /* background-color: 	#d8e7f7; */
+  background-color: 	#f8f9fa;
   
 
 }

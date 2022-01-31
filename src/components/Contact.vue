@@ -80,7 +80,7 @@ export default {
 }
 
 .form-group .form-control {
-  
+  background-color: #f8f9fa;
   border-bottom: 1px;
   border-style: none none solid none;
   border-radius:0; 
