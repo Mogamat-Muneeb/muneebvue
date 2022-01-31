@@ -40,7 +40,7 @@ section{
   color: white !important;
 }
 .offcanvas-body{
-  background-color:	rgb(0,0,0);
+  background-color:#2c3e50;
 }
  
 .offcanvas-end{
@@ -48,7 +48,7 @@ section{
 }
 
 .offcanvas-header{
-  background-color: 	rgb(0,0,0);
+  background-color:#2c3e50;
   
 }
   
@@ -57,7 +57,7 @@ section{
 }
 
 .navbar{
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .navbar>.container-fluid{
