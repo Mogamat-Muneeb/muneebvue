@@ -138,7 +138,7 @@ export default {
 @media only screen and (max-width: 904px){
   .testimonial{
   height: 600px;
-  width: 300px;
+  width: 340px;
   border: 1px solid lightgray;
   border-radius:9px;
   margin: 25px;
@@ -151,7 +151,7 @@ export default {
 
 .test_img{
   display: flex;
-  width: 300px;
+  width: 340px;
   height: 330px;
   object-fit:cover;
     border-radius:9px 9px 0 0;
