@@ -132,5 +132,30 @@ export default {
   padding:10px;
   font-weight: bold;
 }
+
+
+
+@media only screen and (max-width: 904px){
+  .testimonial{
+  height: 600px;
+  width: 300px;
+  border: 1px solid lightgray;
+  border-radius:9px;
+  margin: 25px;
+  background-color:white;
+  /* padding:250px; */
+  overflow-x: hidden;
+  overflow-y: hidden;
+  /* box-shadow:  1px 1px 1px 1px black; */
+}
+
+.test_img{
+  display: flex;
+  width: 300px;
+  height: 330px;
+  object-fit:cover;
+    border-radius:9px 9px 0 0;
+}
+}
   
 </style>
