@@ -1,0 +1,48 @@
+{
+    "projects":[
+        {"title":"E-Commerce Website","id":1,"img":"https://i.postimg.cc/8zSHpkLD/ecom1-3-11zon.png","links":{
+            "github":"https://github.com/Mogamat-Muneeb/online-store",
+            "netlify":"https://dinghystore.netlify.app"
+        }},
+        {"title":"JS Calculator","id":2,"img":"https://i.postimg.cc/8kYM5kQ9/calculator.png","links":{
+            "github":"https://github.com/Mogamat-Muneeb/calculator_2",
+            "netlify":"https://jscalculator2.netlify.app"
+        }},
+        {"title":"Box-Model","id":3,"img":"https://i.postimg.cc/PJ7WnTTG/boxmodel-2-11zon.png","links":{
+            "github":"https://github.com/Mogamat-Muneeb/cards-boxmodel",
+            "netlify":"https://cards-boxmodel.netlify.app"
+        }},
+        {"title":"Reaction-Timer","id":4,"img":"https://i.postimg.cc/JhDc345h/Screenshot-11.png","links":{
+            "github":"https://github.com/Mogamat-Muneeb/reaction-time-vue-",
+            "netlify":"https://muneebs-reacting-timer.netlify.app/"
+        }},
+        {"title":"Davids Driving School-Brochure Site","id":4,"img":"https://i.postimg.cc/J01kF1ZZ/Screenshot-10.png","links":{
+            "github":"https://github.com/Mogamat-Muneeb/davids_drivingschool",
+            "netlify":"https://davids-drivng-school.netlify.app"
+        }}
+    ],
+    "testimonials":[
+        {"name":" Mogamat Breda","id":1,"img":"https://i.postimg.cc/FRkTVGGL/Breda-Y1-6-11zon.jpg","email":"mugammadbreda1999@gmail.com","quote":"This man is hardworking as well as efficient with his time. Great guy to work with.","relation":"Colleague"
+        },
+
+        {"name":" Yaseen Davids","id":2,"img":"https://i.postimg.cc/k5Bs7w0p/Yaseen3-9-11zon.jpg","email":"yaaseendav@gmail.com","quote":"Muneeb is an amazing designer and is always willing to help the next person.","relation":"Colleague"
+        },
+        
+        {"name":" Ndomizanele Moni","id":3,"img":"https://i.postimg.cc/TwbcD1Yj/Zanele3-10-11zon.jpg","email":"zanelemoni4@gmail.com","quote":"Muneeb is a good person,he is always willing to help .He is always focused on the task at hand and is not easily distracted, HE LOVES HIS WORK. ","relation":"Colleague"
+        },
+        
+        {"name":"  Na-aim Fredericks","id":4,"img":"https://i.postimg.cc/8zkTLjVH/Na-aim3-7-11zon.jpg","email":"fredericksnaam13@gmail.com","quote":"Muneeb is a very accountable guy when it comes to being a team player he is always flexible in his work he is ethical and loyal.","relation":"Colleague"
+        },
+        
+        {"name":" Simamkele January","id":5,"img":"https://i.postimg.cc/dv7gPntj/Simamkele2-8-11zon.jpg","email":"simamkelejanjuary@gamil.com","quote":"Besides bieng an outatanding classmate, Muneeb is a free spirited young man who is always ready to help out where he is needed.","relation":"Colleague"
+        },
+
+        {"name":"  Alex Sexwale","id":6,"img":"https://i.postimg.cc/vB4NSG8D/alex-5-11zon.jpg","email":"alexsexwale@gmail.com","quote":"Muneeeb is vigilant with his work. He continues to find ways to provide quality work and keep improving on his general knowledge.","relation":"Lecturer"
+        }
+
+        
+        
+    ]
+   
+
+}
