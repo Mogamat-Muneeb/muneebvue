@@ -179,22 +179,22 @@ ul li, ol li {
 }
 }
 
-/* @media only screen and (max-width: 904px){
+@media only screen and (max-width: 904px){
    .row{
     text-align:center !important;
     
    }
     .pro-title{
  
-     margin-left: -160px;
+     /* margin-left: -160px; */
     text-align:left !important;
 }
-.about-profile{
+/* .about-profile{
     margin-right:-145%;
-}
+} */
 .h{
     padding-left:110px;
 }
-} */
+}
 
 </style>
