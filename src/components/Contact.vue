@@ -13,7 +13,25 @@
     <div class="row">
 
         <div class="  ">
+                <div class="call  row "> 
+                <div class="call-holder col-md-4 col-lg-4"  > <i class="fas fa-phone-alt " ></i> 
+                  <br> 
+                      <div class="call-me fw-bold ">Call Me On:</div>
+                      <div class="call-me-1 text-muted">+ 27 76 162 1649</div>
+                </div>
 
+                <div class="call-holder  col-md-4 col-lg-4"> <i class="fas fa-map-marker-alt"  ></i> 
+                  <br> 
+                      <div class="call-me fw-bold">Home:</div>
+                      <div class="call-me-1 text-muted">Cape Town, South Africa</div>
+                </div>
+
+                <div class="call-holder  col-md-4 col-lg-4"> <i class="fas fa-envelope" ></i> 
+                  <br> 
+                      <div class="call-me fw-bold">Email:</div>
+                      <div class="call-me-1 text-muted">davimuneeb785@gmail.com</div>
+                </div>
+            </div>
             <form id="contact-form" name="myForm" class="form" action="https://formspree.io/f/mvodnnke" onsubmit="return validateForm()" method="POST" role="form" target="_blank">
 
                 <div class="form-group">
@@ -58,6 +76,7 @@ export default {
 <style>
 .containe {
   display:flex;
+  padding: none;
 }
 /* contact */
 #success-message {
@@ -157,6 +176,32 @@ textarea {
     padding: 80px;
   }
 }
+/* .call{
+  margin-left: 35%;
+} */
 
+.fas{
+  display:flex;
+  justify-content: center;
+  font-size:35px;
+  /* padding-bottom:10px; */
+  color:#f01212;
+}
 
+.call-me{
+  display:flex;
+  justify-content: center;
+}
+
+.call-me-1{
+  display:flex;
+  justify-content: center;
+  /* padding-top: 10px; */
+}
+.call-holder{
+  padding-top: 15px;
+}
+.fas:hover{
+  color:#2c3e50;
+}
 </style>
