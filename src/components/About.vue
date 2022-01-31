@@ -169,7 +169,7 @@ ul li, ol li {
    }
     .pro-title{
  
-     margin-left: -155px;
+     margin-left: -160px;
     text-align:left !important;
 }
 .about-profile{
