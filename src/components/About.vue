@@ -9,7 +9,7 @@
 
   <div class="col-sm-6">
   <h1 class="hi">Hi Guys!</h1>
-  <h6 class="d-flex justify-content-start fw-bold">Bio:</h6>
+  <h6 class="h d-flex justify-content-start fw-bold">Bio:</h6>
   <p>I am a person that works hard and is committed to whatever I am doing at the present moment. I try my best to be punctual at my studies or anything that needs my full attention. Furthermore, I am a person that is always willing to assist and help others when in need. I love public speaking and I am very comfortable around lots of people. I am a very open person and confident.</p>
   <h6  class=" heading fw-bold">Where my passion for coding started:</h6>
   <p>My passion for the tech/coding industry started when I wanted to start my own YouTube channel. I had to do research on how to start, what I needed and what skills were needed for me to become a successful YouTuber. I developed the passion because everything we do includes having to know the tech industry.</p>
@@ -176,6 +176,24 @@ ul li, ol li {
 }
 .about-profile{
     margin-right:-50%;
+}
+}
+
+@media only screen and (max-width: 904px){
+   .row{
+    text-align:center !important;
+    
+   }
+    .pro-title{
+ 
+     margin-left: -160px;
+    text-align:left !important;
+}
+.about-profile{
+    margin-right:-145%;
+}
+.h{
+    padding-left:110px;
 }
 }
 
