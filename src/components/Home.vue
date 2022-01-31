@@ -3,24 +3,28 @@
 <div class="img-slider">
   <div class="slider-container">
     
-    <div class="slide">
-      <img src="../assets/desk1.jpg">
-    </div>
-    
-    <div class="slide">
-      <img src="../assets/desk2.jpg">
-    </div>
 
     <div class="slide">
       <img src="../assets/desk3.jpg">
     </div>
     
+    <div class="slide">
+      <img src="https://i.postimg.cc/PqRj2Gjf/pexels-photo-269323.jpg">
+    </div>
+    
+     
+    <div class="slide">
+      <img src="../assets/desk2.jpg">
+    </div>
+
+   
+    
   </div>
 </div>
 <div class="words">
-  <h4 class="fw-bolder"><span style="color:#2c3e50">HI,THIS IS....</span></h4>
+  <h4 class="fw-bolder"><span style="color:#2c3e50;">HI,THIS IS....</span></h4>
   <br>
-   <h1 class="fw-bolder"> <span style="color:#2c3e50">Mogamat Muneeb Davids</span> </h1>
+   <h1 class="fw-bolder"> <span style="color:white">Mogamat Muneeb Davids</span> </h1>
    
     <h4 class="fw-bolder"><span style="color:#2c3e50">AN ASPIRING FULL STACK DEVELOPER</span></h4>
     <br>
@@ -72,7 +76,7 @@ body {
     top: 0;
     left: 0;
     overflow: hidden;
-    animation: slider 26s infinite;
+    animation: slider 8s infinite;
 }
 .img-slider .slider-container .slide {
     position: relative;

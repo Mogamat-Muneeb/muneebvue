@@ -158,7 +158,7 @@ textarea {
 .btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
     color: white;
     border-color: #000;
-    background:#f01212;;
+    background:#f01212;
     outline: none;
     
 }
