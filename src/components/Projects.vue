@@ -180,4 +180,9 @@ export default {
     justify-content: space-evenly;
   padding-top: 145px;
 }
+
+
+@media only screen and (max-width: 904px){
+  
+}
 </style>
