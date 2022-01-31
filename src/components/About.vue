@@ -179,7 +179,7 @@ ul li, ol li {
 }
 }
 
-@media only screen and (max-width: 904px){
+/* @media only screen and (max-width: 904px){
    .row{
     text-align:center !important;
     
@@ -195,6 +195,6 @@ ul li, ol li {
 .h{
     padding-left:110px;
 }
-}
+} */
 
 </style>
