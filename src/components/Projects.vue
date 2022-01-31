@@ -11,10 +11,10 @@
     <div class="econ">
         <div class="row">
             <div class="col">
-                <a :href="`${project.links.github}`"><i class="   fab fa-github"></i></a> 
+                <a :href="`${project.links.github}`" target="_blank"><i class="   fab fa-github"></i></a> 
             </div>
             <div class="col">
-                 <a :href="`${project.links.netlify}`"><i class=" far fa-eye"></i></a>           
+                 <a :href="`${project.links.netlify}`" target="_blank"><i class=" far fa-eye"></i></a>           
              </div>
             </div>
        
@@ -183,6 +183,70 @@ export default {
 
 
 @media only screen and (max-width: 904px){
+  .bucket {
+     display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 250px;
+  position: relative;
+  margin: 10px;
+ 
+}
+
+.proj_img {
+  display: block;
+  width: 350px;
+  height: auto;
+  object-fit: cover;
+   /* border: 6px solid lightgray; */
+   border-radius:2px;
   
+}
+
+.overlay {
+   
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.text1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* padding-right: 10px; */
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+ 
+
+  
+}
+.fab{
+    font-size:30px;
+    display: column;
+    color: white;
+    float: left;
+    padding-left: 15px;
+}
+.far{
+    font-size:30px;
+    display: column;
+    color: white;
+    /* padding-left: 40px; */
+}
+
 }
 </style>

@@ -180,10 +180,10 @@ ul li, ol li {
 }
 
 @media only screen and (max-width: 904px){
-   .row{
+   /* .row{
     text-align:center !important;
     
-   }
+   } */
     .pro-title{
  
      /* margin-left: -160px; */
