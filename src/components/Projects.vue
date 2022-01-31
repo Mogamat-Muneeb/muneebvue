@@ -76,6 +76,7 @@ export default {
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
+    overflow-y: hidden;
     
     /* height:70vh; */
 }
