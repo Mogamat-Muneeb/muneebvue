@@ -74,7 +74,7 @@ export default {
 .testimonial{
   height: 600px;
   width: 400px;
-  border: 1px solid orange;
+  border: 1px solid lightgray;
   border-radius:9px;
   margin: 25px;
   /* padding:250px; */
