@@ -123,35 +123,52 @@ export default {
 
 .bucket:hover .overlay {
   opacity: 1;
+  transition: 1s ;
+  
 }
+
 
 .text1 {
   color: rgba(255, 255, 255, 1);
   font-size: 20px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 30%;
+  left: 30%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
-}
 
+  text-align: center;
+ 
+
+  
+}
+.fab:hover{
+    color: black;
+     
+}
+.far:hover{
+    color: black;
+     
+}
 
 .fab{
     font-size:30px;
     display: column;
     color: white;
+    float: left;
+    padding-left: 260px;
 }
 .far{
     font-size:30px;
     display: column;
     color: white;
+    /* padding-left: 40px; */
 }
 
 .econ{
     display:flex;
     justify-content: space-evenly;
-  padding-top: 130px;
+  padding-top: 145px;
 }
 </style>
