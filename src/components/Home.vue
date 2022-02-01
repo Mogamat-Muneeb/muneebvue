@@ -14,7 +14,7 @@
     
      
     <div class="slide">
-      <img src="../assets/desk2.jpg">
+      <img src="../assets/desk2-min.jpg">
     </div>
 
    
