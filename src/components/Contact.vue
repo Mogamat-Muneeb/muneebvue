@@ -210,5 +210,10 @@ textarea {
 .b{
   display:flex;
   justify-content: space-around;
+  
+}
+
+.btn{
+  border-radius:3px;
 }
 </style>
