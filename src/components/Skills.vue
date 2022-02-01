@@ -80,6 +80,7 @@ export default {
   display:flex;
   justify-content:space-around;
   /* height:70vh; */
+ 
 }
 .h4{
   font-weight: bold;
@@ -141,9 +142,9 @@ export default {
    margin-left: 50%;
    margin-right:50% ;
  }
- .lang{
-   /* padding:30px; */
- }
+ /* .lang{
+   padding:30px;
+ } */
 /*  
 .icon1{
   color:  #F06529;
