@@ -4,44 +4,59 @@
     <div class="row">
 
       <div class="col-sm-4">
-        <div class="lang">
+        <div class="circle">
+           <div class="lang">
      <span class=" icon icon1"> <i class="fab fa-html5"></i></span>
       
       </div>
-      <h4 class="h4">HTML</h4>
-       <div class="lang">
+      <h4 class="h4"><span style="color: #f01212;">HTML</span> </h4>
+        </div>
+       <div class="circle">
+         <div class="lang">
      <span class="icon icon2"> <i class="fab fa-css3-alt"></i></span>
   
       </div>
-         <h4 class="h4">CSS</h4> 
+         <h4 class="h4"><span style="color: #f01212;"> CSS</span></h4> 
      
+       </div>
+       
       </div>
       
       <div class="col-sm-4">
-          <div class="lang">
+        <div class="circle">
+            <div class="lang">
      <span class=" icon icon3"> <i class="fab fa-js"></i></span>
     
       </div>
-       <h4 class="h4">JAVASCRIPT</h4> 
-         <div class="lang">
+       <h4 class="h4"><span style="color: #f01212;">JAVASCRIPT</span> </h4> 
+        </div>
+        <div class="circle">
+            <div class="lang">
      <span class="icon icon4"> <i class="fab fa-bootstrap"></i></span>
      
       </div>
-       <h4 class="h4">BOOTSTRAP</h4>
+       <h4 class="h4"><span style="color: #f01212;">BOOTSTRAP</span> </h4>
+        </div>
+       
       </div>
       
       
       <div class="col-sm-4">
-       <div class="lang">
+        <div class="circle">
+            <div class="lang">
      <span class=" icon icon5"> <i class="fab fa-git-alt"></i></span>
      
       </div>
-       <h4 class="h4">GIT</h4>
-       <div class="lang">
+       <h4 class="h4"><span style="color: #f01212;">GIT</span> </h4>
+        </div>
+     <div class="circle">
+          <div class="lang">
      <span class="icon icon6"> <i class="fab fa-vuejs"></i></span>
      
       </div>
-      <h4 class="h4">VUE.JS</h4> 
+      <h4 class="h4"><span style="color: #f01212;">VUE.JS</span> </h4> 
+     </div>
+    
       </div>
       
 
@@ -67,21 +82,31 @@ export default {
   /* height:70vh; */
 }
 .h4{
-  font-size: bold;
+  font-weight: bold;
   text-align:center !important;
-  margin-right: 35px;
-  padding-top: -100px;
+  /* margin-right: 45; */
+  margin-top:-55px;
 }
 .lang {
   display:flex;
   justify-content:space-between;
   padding: 70px;
+ 
+}
+.circle {
+   border-radius: 50%;
+  border: 1px solid white;
+  height: 225px;
+  width: 225px;
+  background-color:white;
+   margin-top: 10px;
 }
 .icon {
   font-size: 100px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display:flex;
   justify-content:space-between;
+  margin-top:-20px;
 }
 
 .icon1:hover{
@@ -117,7 +142,7 @@ export default {
    margin-right:50% ;
  }
  .lang{
-   padding:30px;
+   /* padding:30px; */
  }
 /*  
 .icon1{

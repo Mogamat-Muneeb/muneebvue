@@ -25,7 +25,7 @@
 <li><span class="pro-title"> Freelance  </span> <span class="pro-detail">Available</span></li>
 </ul>
 </div>
-
+ 
   </div>
 </div>
 
@@ -72,17 +72,17 @@ export default {
 }
 .row{
     text-align:left ;
-    margin-top:9%;
+    margin-top:15px;
     margin-bottom:15%;
 }
 
 .headin {
     display:flex;
     justify-content:center;
-    margin: top 3rem;
+    /* margin: top rem; */
 }
 .box{
-    display: flex;
+    display: fl2ex;
     /* justify-content:left; */
     /* border: 3px solid; */
     height: 350px;

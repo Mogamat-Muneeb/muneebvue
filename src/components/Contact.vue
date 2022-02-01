@@ -2,7 +2,7 @@
 
 
 <h1><span style="color:#f01212;">CONTACT ME</span> </h1>
-  <div class="containe d-flex justify-content-center">
+  <div class="containe d-flex justify-content-center" id="contact">
 <!-- 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">                        

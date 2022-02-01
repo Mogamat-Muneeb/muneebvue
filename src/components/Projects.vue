@@ -43,10 +43,10 @@ export default {
             "github":"https://github.com/Mogamat-Muneeb/calculator_2",
             "netlify":"https://jscalculator2.netlify.app","lang":"JS"
         }},
-        {"title":"Box-Model","id":3,"img":"https://i.postimg.cc/PJ7WnTTG/boxmodel-2-11zon.png","links":{
-            "github":"https://github.com/Mogamat-Muneeb/cards-boxmodel",
-            "netlify":"https://cards-boxmodel.netlify.app","lang":"HTML/CSS"
-        }},
+        // {"title":"Box-Model","id":3,"img":"https://i.postimg.cc/PJ7WnTTG/boxmodel-2-11zon.png","links":{
+        //     "github":"https://github.com/Mogamat-Muneeb/cards-boxmodel",
+        //     "netlify":"https://cards-boxmodel.netlify.app","lang":"HTML/CSS"
+        // }},
         {"title":"Reaction-Timer","id":4,"img":"https://i.postimg.cc/JhDc345h/Screenshot-11.png","links":{
             "github":"https://github.com/Mogamat-Muneeb/reaction-time-vue-",
             "netlify":"https://muneebs-reacting-timer.netlify.app/","lang":"VUE.JS"
@@ -87,7 +87,7 @@ export default {
     justify-content: center;
     flex-wrap: wrap;
     overflow-y: hidden;
-    
+    margin-top:20px ;
     /* height:70vh; */
 }
 .project{
