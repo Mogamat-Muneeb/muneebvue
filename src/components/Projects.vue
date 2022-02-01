@@ -39,7 +39,7 @@ export default {
             "github":"https://github.com/Mogamat-Muneeb/online-store",
             "netlify":"https://dinghystore.netlify.app","lang":"HTML/CSS"
         }},
-        {"title":"JS Calculator","id":2,"img":"https://i.postimg.cc/8kYM5kQ9/calculator.png","links":{
+        {"title":"JS Calculator","id":2,"img":"https://i.postimg.cc/pXKRzZ85/Screenshot-24.png","links":{
             "github":"https://github.com/Mogamat-Muneeb/calculator_2",
             "netlify":"https://jscalculator2.netlify.app","lang":"JS"
         }},
@@ -114,7 +114,9 @@ export default {
   height: auto;
   object-fit: cover;
    /* border: 6px solid lightgray; */
-   border-radius:2px;
+   
+   border: 6px solid white;
+   border-radius:6px;
   
 }
 
@@ -130,6 +132,7 @@ export default {
   opacity: 0;
   transition: .5s ease;
   background: rgba(0, 0, 0, 0.5);
+  border-radius:6px;
 }
 
 .bucket:hover .overlay {

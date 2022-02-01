@@ -80,7 +80,7 @@ export default {
   display:flex;
   justify-content:space-around;
   /* height:70vh; */
- 
+  /* margin-bottom: 130px; */
 }
 .h4{
   font-weight: bold;
