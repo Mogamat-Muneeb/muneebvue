@@ -10,9 +10,9 @@
   <div class="col-sm-6">
   <h1 class="hi">Hi Guys!</h1>
   <h6 class="h d-flex justify-content-start fw-bold">Bio:</h6>
-  <p>I am a person that works hard and is committed to whatever I am doing at the present moment. I try my best to be punctual at my studies or anything that needs my full attention. Furthermore, I am a person that is always willing to assist and help others when in need. I love public speaking and I am very comfortable around lots of people. I am a very open person and confident.</p>
+  <p> I am a person that works hard and is committed to whatever I am doing at the present moment. I try my best to be punctual at my studies or anything that needs my full attention. Furthermore, I am a person that is always willing to assist and help others when in need. I love public speaking and am very comfortable around lots of people. I am a very open person and confident.</p>
   <h6  class=" heading fw-bold">Where my passion for coding started:</h6>
-  <p>My passion for the tech/coding industry started when I wanted to start my own YouTube channel. I had to do research on how to start, what I needed and what skills were needed for me to become a successful YouTuber. I developed the passion because everything we do includes having to know the tech industry.</p>
+  <p>My passion for the tech/coding industry started when I wanted to start my own YouTube channel. I had to research how to start, what I needed, and what skills were necessary for me to become a successful YouTuber. I developed the passion because everything we do includes the tech industry.</p>
  
   <div class="about-profile">   
 <ul class="admin-profile">
