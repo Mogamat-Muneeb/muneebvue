@@ -15,7 +15,7 @@
       <div class="info">
         <h4 class="date">  2021-Present:</h4>
         <h3 class="title">Life Choices Coding Academy</h3>
-        <p>A Bootcamp program that gives you the care fundamentals of Web Development, learning coding languages such as HTML, CSS, Javascript and more coding techniques. We are aso taught interpersonal and self-development skills to take us further in life. </p>
+        <p>A Bootcamp program that gives you the care fundamentals of Web Development, learning coding languages such as HTML, CSS, Javascript and more coding techniques. We are also taught interpersonal and self-development skills to take us further in life. </p>
       </div>
     </div>
   </div>

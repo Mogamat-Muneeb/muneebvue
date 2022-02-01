@@ -13,7 +13,7 @@
         <h2 class="relation">{{ testimonial.relation}}</h2>
       </div>
      <div class="quo">
-        <h4 class="quote">{{testimonial.quote}}</h4>
+        <h4 class="quote" style="color:grey;">{{testimonial.quote}}</h4>
      </div>
      <div class="ema">
         <h6 class="email">{{ testimonial.email }}</h6>
@@ -82,6 +82,7 @@ export default {
   background-color:white;
   /* padding:250px; */
   overflow-x: hidden;
+  
   /* box-shadow:  1px 1px 1px 1px black; */
 }
 
