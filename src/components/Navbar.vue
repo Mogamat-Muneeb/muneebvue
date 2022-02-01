@@ -61,7 +61,8 @@ export default {
 
 .btn-close {
   opacity: 1;
-  
+  height:30px;
+  width:30px;
 }
 
 .navbar-toggler-icon {
