@@ -4,7 +4,7 @@
 <div class="row row1 d-flex justify-content-center">
     <h1 class="headin d-flex justify-content-center"><span  style="color: #f01212;">ABOUT ME</span> </h1>
   <div class="box d-flex justify-content-center  col-sm-6 ">
-      <img class="photo" src="../assets/Muneeb.jpg" alt="" >
+      <img class="photo" src="../assets/Muneeb-min.jpg" alt="" >
   </div>
 
   <div class="col-sm-6">

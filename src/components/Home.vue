@@ -9,7 +9,7 @@
     </div>
     
     <div class="slide">
-      <img src="https://i.postimg.cc/PqRj2Gjf/pexels-photo-269323.jpg">
+      <img src="../assets/pexels-photo-269323-min.jpg">
     </div>
     
      
