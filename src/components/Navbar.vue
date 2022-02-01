@@ -57,13 +57,23 @@ export default {
 </script>
 
 <style>
+
+
+.btn-close {
+  opacity: 1;
+  
+}
+
+.navbar-toggler-icon {
+    opacity: 1;
+}
 .offcanvas-backdrop{
     background: none;
 }
 
 .btn-close.text-reset {
-    
-    color: white !important;
+    border: none !important;
+  
     
 }
 

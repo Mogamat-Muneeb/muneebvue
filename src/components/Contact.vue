@@ -56,6 +56,7 @@
 
                 <div class="text-center margin-top-25">
                     <button type="submit" class="btn btn-mod btn-border btn-large">Send Message</button>
+                    <button type="reset" value="Reset" class="btn btn-mod btn-border btn-large">reset</button>
                 </div>
 
             </form>
