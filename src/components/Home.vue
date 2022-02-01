@@ -22,12 +22,20 @@
   </div>
 </div>
 <div class="words">
-  <h4 class="fw-bolder"><span style="color:#2c3e50;">HI,THIS IS....</span></h4>
-  <br>
-   <h1 class="fw-bolder"> <span style="color:white">Mogamat Muneeb Davids</span> </h1>
+  
+ 
+ 
+ 
+  
+  <div class="blink">
+    <h4 class="fw-bolder  blink-hard"><span style="color:#2c3e50;font-size: 30px;">HI,THIS IS....</span></h4>
+    
+   <h1 class="fw-bolder text-red blink-hard"> <span style="color:white">Mogamat Muneeb Davids</span> </h1>
    
-    <h4 class="fw-bolder"><span style="color:#2c3e50">AN ASPIRING FULL STACK DEVELOPER</span></h4>
-    <br>
+   <h4 class="fw-bolder blink-hard"><span style="color:#2c3e50">AN ASPIRING FULL STACK DEVELOPER</span></h4>
+    </div>
+    
+    
     
  <div class="social-menu">
         <ul>
@@ -54,6 +62,25 @@ export default {
 </script>
 
 <style>
+
+.blink {
+
+   display:flex;
+  justify-content: center;
+  flex-direction: column;
+  
+ 
+}
+
+.blink-hard {
+  animation: blinker 2.5s infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 
 
 body {
