@@ -87,7 +87,7 @@ export default {
     justify-content: center;
     flex-wrap: wrap;
     overflow-y: hidden;
-    margin-top:20px ;
+    margin-top:15px ;
     /* height:70vh; */
 }
 .project{
@@ -254,5 +254,9 @@ export default {
     /* padding-left: 40px; */
 }
 
+}
+
+h1{
+  margin-top:40px;
 }
 </style>

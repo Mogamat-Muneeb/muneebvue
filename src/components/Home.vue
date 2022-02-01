@@ -76,7 +76,7 @@ body {
     top: 0;
     left: 0;
     overflow: hidden;
-    animation: slider 8s infinite;
+    animation: slider 12s infinite;
 }
 .img-slider .slider-container .slide {
     position: relative;
