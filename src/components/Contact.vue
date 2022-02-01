@@ -186,12 +186,14 @@ textarea {
   justify-content: center;
   font-size:35px;
   /* padding-bottom:10px; */
-  color:#f01212;
+  color:#2c3e50;
+  
 }
 
 .call-me{
   display:flex;
   justify-content: center;
+  color:#f01212;
 }
 
 .call-me-1{
@@ -203,6 +205,6 @@ textarea {
   padding-top: 15px;
 }
 .fas:hover{
-  color:#2c3e50;
+  color:#f01212;
 }
 </style>
