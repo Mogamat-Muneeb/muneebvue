@@ -54,7 +54,7 @@
                     <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Your message" tabindex="4"></textarea>                                 
                 </div>
 
-                <div class="text-center margin-top-25">
+                <div class=" b text-center margin-top-25">
                     <button type="submit" class="btn btn-mod btn-border btn-large">Send Message</button>
                     <button type="reset" value="Reset" class="btn btn-mod btn-border btn-large">reset</button>
                 </div>
@@ -206,5 +206,9 @@ textarea {
 }
 .fas:hover{
   color:#f01212;
+}
+.b{
+  display:flex;
+  justify-content: space-around;
 }
 </style>
