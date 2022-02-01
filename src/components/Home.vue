@@ -5,7 +5,7 @@
     
 
     <div class="slide">
-      <img src="../assets/desk3.jpg">
+      <img src="../assets/desk3-min.jpg">
     </div>
     
     <div class="slide">
