@@ -186,7 +186,7 @@ ul li, ol li {
    } */
     .pro-title{
  
-     /* margin-left: -160px; */
+     margin-left: 10px;
     text-align:left !important;
 }
 /* .about-profile{
