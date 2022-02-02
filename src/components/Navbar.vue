@@ -61,12 +61,17 @@ export default {
 
 .btn-close {
   opacity: 1;
-  height:30px;
-  width:30px;
+  height:40px;
+  width:40px;
+  color: red;
 }
 
 .navbar-toggler-icon {
     opacity: 1;
+     height:40px;
+  width:40px;
+  object-fit: cover;
+
 }
 .offcanvas-backdrop{
     background: none;
