@@ -5,7 +5,7 @@
     
 
     <div class="slide">
-      <img src="../assets/desk3-min.jpg">
+      <img src="../assets/pexels-neq-min.jpeg">
     </div>
     
     <div class="slide">
@@ -73,10 +73,10 @@ export default {
 }
 
 .blink-hard {
-  animation: blinker 2.5s infinite;
+  animation: pulse 8s infinite;
 }
 
-@keyframes blinker {
+@keyframes pulse {
   50% {
     opacity: 0;
   }

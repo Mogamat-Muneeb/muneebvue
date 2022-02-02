@@ -8,10 +8,10 @@
   </div>
 
   <div class="col-sm-6">
-  <h1 class="hi">Hi Guys!</h1>
-  <h6 class="h d-flex justify-content-start fw-bold">Bio:</h6>
+  <h1 class="hi" >Hi Guys!</h1>
+  <h6 class="h d-flex justify-content-start fw-bold" style="color: #f01212;">Bio:</h6>
   <p> I am a person that works hard and is committed to whatever I am doing at the present moment. I try my best to be punctual at my studies or anything that needs my full attention. Furthermore, I am a person that is always willing to assist and help others when in need. I love public speaking and am very comfortable around lots of people. I am a very open person and confident.</p>
-  <h6  class=" heading fw-bold">Where my passion for coding started:</h6>
+  <h6  class=" heading fw-bold" style="color: #f01212;">Where my passion for coding started:</h6>
   <p>My passion for the tech/coding industry started when I wanted to start my own YouTube channel. I had to research how to start, what I needed, and what skills were necessary for me to become a successful YouTuber. I developed the passion because everything we do includes the tech industry.</p>
  
   <div class="about-profile">   
@@ -116,7 +116,7 @@ export default {
 .about-profile .pro-title:after {
     position: absolute;
     content: ':';
-    color: #2c3e50;
+    color: #f01212;
     font-size: 14px;
     left: 100px;
    
