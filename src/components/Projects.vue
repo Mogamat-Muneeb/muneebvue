@@ -158,11 +158,11 @@ export default {
   
 }
 .fab:hover{
-    color: black;
+    color: #f01212;
      
 }
 .far:hover{
-    color: black;
+    color: #f01212;
      
 }
 
