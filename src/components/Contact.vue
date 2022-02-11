@@ -84,8 +84,8 @@ export default {
   },
   methods:{
     handleSubmit(){
-            console.log(this.name,this.email,this.contact,this.message,)
-            fetch(' https://myport-backend.herokuapp.com/contacts', {
+    console.log(this.name,this.email,this.contact,this.message)
+    fetch('https://myport-backend.herokuapp.com/contact', {
   method: 'POST',
   body: JSON.stringify({
     name: this.name,
