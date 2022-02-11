@@ -31,7 +31,7 @@
 
 <script>
 
-const url = " https://myport-backend.herokuapp.com/contacts"
+const url = "https://myport-backend.herokuapp.com/"
 export default {
         data(){
             return {
