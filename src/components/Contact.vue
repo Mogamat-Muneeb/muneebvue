@@ -32,27 +32,29 @@
                       <div class="call-me-1 text-muted">davimuneeb785@gmail.com</div>
                 </div>
             </div>
-            <form id="contact-form" name="myForm" class="form" action="https://formspree.io/f/mvodnnke" onsubmit="return validateForm()" method="POST" role="form" target="_blank">
+            <!-- action="https://formspree.io/f/mvodnnke" -->
+             <!-- onsubmit="return validateForm()" -->
+            <form @submit.prevent="handleSubmit" id="contact-form" name="myForm" class="form"  role="form">
 
                 <div class="form-group">
                     <label class="form-label" id="nameLabel" for="name"></label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1"  required>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1"  required v-model="name">
                     
                 </div>
 
                 <div class="form-group">
                     <label class="form-label" id="emailLabel" for="email"></label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2" required>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2" required v-model="email">
                 </div>
 
                 <div class="form-group">
                     <label class="form-label" id="subjectLabel" for="sublect"></label>
-                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3" required>
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Contact Number" tabindex="3" required v-model="contact">
                 </div>
 
                 <div class="form-group">
                     <label class="form-label" id="messageLabel" for="message"></label>
-                    <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Your message" tabindex="4"></textarea >                                 
+                    <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Your message" tabindex="4" v-model="message"></textarea >                                 
                 </div>
 
                 <div class=" b text-center margin-top-25">
@@ -61,7 +63,7 @@
                 </div>
 
             </form>
-          
+          <!-- <p>{{name}}</p>  -->
         </div>
 
     </div>
@@ -71,7 +73,35 @@
 
 <script>
 export default {
+  data(){
+    return {
+      name:"",
+      email: "",
+      contact: "",
+      message: "",
 
+    }
+  },
+  methods:{
+    handleSubmit(){
+            console.log(this.name,this.email,this.contact,this.message,)
+            fetch('http://localhost:5000/contact', {
+  method: 'POST',
+  body: JSON.stringify({
+    name: this.name,
+    email: this.email,
+    contact: this.contact,
+    message: this.message,
+  }),
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
+})
+  .then((response) => response.json())
+  .then((json) => alert(json.msg))
+  .catch((error) => alert(error.msg));
+    }
+  }
 }
 </script>
 
