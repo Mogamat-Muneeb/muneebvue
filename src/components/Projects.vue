@@ -31,7 +31,7 @@
 
 <script>
 
-const url = "https://myport-backend.herokuapp.com/"
+
 export default {
         data(){
             return {
@@ -39,7 +39,7 @@ export default {
             }
         },
         mounted(){
-            fetch(`${url}projects`)
+            fetch("https://myport-backend.herokuapp.com/projects")
             .then(res => res.json())
             .then(data => this.projects = data)
             .catch(err => console.log(err.message))
